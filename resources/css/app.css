@@ -1,0 +1,82 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+      
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+ .radiur-form{
+    border-radius: 27px 27px 0px 0px;
+    margin-top: 20px;
+ } 
+
+ .form-control{
+    border: 1px solid ;
+ }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+ .pd-30{
+     padding: 30px;
+ }
+
+.bg-nav-logo{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.bg-white{
+    background: white;
+}
+.bg { 
+    /* The image used */
+    background-image: url("https://www.ssangyong.com.co/wp-content/uploads/2020/09/img2-catalogo-rexton-g4.png") right;
+    height: 90vh; 
+    background-size: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    position: fixed;
+}
+
+
+.btn-black{
+  background: black;
+  color: white;
+}
+
+.btn-black:hover{
+  background: rgb(104, 101, 101);
+  color: white;
+}
+
+.form-control-lg:focus{
+  border: 1px solid white;
+  outline: none;
+}
+
+.form-position{
+    position: absolute;
+    right: 10px;
+}
+
+.preloadform{
+    opacity: 0.7;
+    pointer-events: none;
+}
